@@ -1,0 +1,210 @@
+.btn {
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .btn.transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+    width: 210px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .download{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+  }
+
+  .good2:hover{
+      background-color: rgb(0, 202, 0);
+  }
+  .bad2:hover{
+      background-color: rgb(197, 0, 0);
+  }
+  .dl{
+      padding: 10px;
+  }
+  .qidai{
+      color: rgb(0, 174, 255);
+  }
+  
+  .links{
+      position: center;
+      margin-left: 100px;
+  }
+  .logo-name h1{
+      font-size: 35px;
+      margin: 0;
+      margin-top: 5px;
+  }
+  .footer{
+      margin-left: 100px;
+  }
+  .money-ico{
+      height: 50px;
+      width: 50px;
+  }
+  .money h2{
+      position: relative;
+      left: 60px;
+      bottom: 65px;
+      width: 530px;
+  }
+  .money2{
+      visibility: hidden;
+      width: 1px;
+      height: 1px;
+  }
+  .money-ico2{
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+  }
+  .page{
+      margin-left: 100px;
+  }
+  .fade2{
+      height: 500px;
+      width: 200px;
+  }
+  .fade3{
+      margin: 0;
+      padding: 0;
+  }
+  .page p{
+    margin-left: 100px;
+}
+.page h1{
+    margin-left: 100px;
+}
+.slider{
+    margin-left: 100px;
+}
+.good{
+    color: rgb(43, 255, 0);
+}
+.bad{
+    color: rgb(255, 0, 0);
+}
+.note{
+    padding: 10px;
+    padding-top: 20px;
+}
+.how2{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.how-ico{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+.help{
+    margin-left: 100px;
+}
+.help img{
+    width: 60%;
+    height: 60%;
+    margin: 10px;
+}
+.head-alert{
+    margin-left: 100px;
+}
+.money{
+    visibility: hidden;
+}
+  @media screen and (max-width:700px){
+
+      .links{
+         position: relative;
+         margin: auto;
+         text-align: center;
+      }
+      .head-alert{
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+      .footer{
+          font-size: 12px;
+      }
+      .footer{
+          margin: 10px;
+      }
+      .money h2{
+        position: relative;
+        left: 60px;
+        bottom: 65px;
+        width: 270px;
+        font-size: 17px;
+    }
+    .slider{
+        margin-left: 100px;
+    }
+    .slider{
+        margin-left: 0px;
+    }
+    .money{
+        visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width:400px){
+    .links{
+       position: relative;
+       margin: auto;
+       text-align: center;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    .footer{
+        margin: 10px;
+    }
+    .money h2{
+      position: relative;
+      left: 60px;
+      bottom: 65px;
+      width: 240px;
+    }
+    .slider{
+    margin-left: 0;
+    }
+    .fade2{
+		height: 350px;
+		width: 160px;
+	}
+    .fade2{
+		position: relative;
+        top: 50px;
+	}
+    .help{
+        margin-left: 10px;
+    }
+    .help img{
+        width: 80%;
+        height: 80%;
+        margin: 10px;
+    }
+    .head-alert{
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    .money{
+        visibility: hidden;
+    }
+}

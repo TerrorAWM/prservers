@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bar.css">
+    <link rel="shortcut icon" href="img/logo2.PNG" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9723e3720a.js" crossorigin="anonymous"></script>
+    <title>这么下载？</title>
+</head>
+
+<body class="overlay-scrollbar light">
+	<!-- navbar -->
+	<div class="navbar">
+		<!-- nav left -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link">
+					<i class="fas fa-bars" onclick="collapseSidebar()"></i>
+				</a>
+			</li>
+			<li class="nav-item">
+				<img src="img/logo2.PNG" alt="logos" class="logos logo-light">
+			</li>
+            <li class="logo-name">
+                <h1>PRSERVERS</h1>
+            </li>
+		</ul>
+	<!-- end nav right -->
+	</div>
+	<!-- end navbar -->
+	<!-- sidebar -->
+	<div class="sidebar">
+		<ul class="sidebar-nav">
+			<li class="sidebar-nav-item">
+				<a href="index.html" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-home"></i>
+					</div>
+					<span>
+						主页
+					</span>
+				</a>
+			</li>
+			<li class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link active">
+					<div>
+						<i class="fas fa-question-circle"></i>
+					</div>
+					<span>疑问</span>
+				</a>
+			</li>
+            <li class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-language"></i>
+					</div>
+					<span>English</span>
+				</a>
+			</li>
+			
+		</ul>
+	</div>
+	<!-- end sidebar -->
+	<!-- main content -->
+	<div class="wrapper">
+		
+		
+		
+	</div>
+	<!-- end main content -->
+	<!-- import script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<script src="index.js"></script>
+	<!-- end import script -->
+
+</body>
+<div class="container">
+    <div class="image-container">
+        <img src="img/img10.png" id="content1" class="active img">
+        <img src="img/img9.png" id="content2" class="img">
+        <img src="img/img6.jpeg" id="content3" class="img">
+        <img src="img/img8.jpeg" id="content4" class="img">
+    </div>
+    <div class="dot-container">
+        <button onclick = "dot(1)"></button>
+        <button onclick = "dot(2)"></button>
+        <button onclick = "dot(3)"></button>
+        <button onclick = "dot(4)"></button>
+    </div>
+    <div class="note">
+        <p>注:这些版本的荒野乱斗在安卓10运行比较稳定</p>
+    </div>
+    <button id="prev" onclick="prev()"> &lt; </button>
+    <button id="next" onclick="next()"> &gt; </button>
+</div>
+<script src="script2.js"></script>
+
+</body>
+</html>
